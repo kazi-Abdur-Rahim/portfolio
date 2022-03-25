@@ -1,0 +1,684 @@
+:root{
+    --ff1:'Montserrat', sans-serif;
+    --ff2:'Roboto', sans-serif;
+    /* fonts */
+    --brand:#FF014F;
+    --tp-color:#f1f1f1;
+    /* color */
+    --bg-color:#212428;
+    --bg-color2:#191C20;
+    --bg-color3:#1C1F23;
+    /*bg-color */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*=================== 
+    common css ends
+====================*/
+.fs-30{
+    font-size: 30px;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+
+.fs-27{
+    font-size: 27px;
+}
+
+.fs-52{
+    font-size: 52px;
+}
+
+.fs-60{
+    font-size: 60px;
+}
+
+.fs-21{
+    font-size: 21px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-26{
+    font-size: 26px;
+}
+
+.fs-43{
+    font-size: 43px;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+.fs-19{
+    font-size: 19px;
+}
+
+.fs-45{
+    font-size: 45px;
+}
+
+/*=============== 
+    fonts ends
+=================*/
+.head{
+    margin-top: 9px;
+    margin-bottom: 60px !important;
+}
+
+.brand{
+    color: var(--brand);
+}
+.tp-color{
+    color: var(--tp-color);
+}
+
+.bg-color1{
+    background: var(--bg-color);
+}
+
+.bg-color2{
+    background: var(--bg-color2);
+}
+/*=============== 
+    color ends
+=================*/
+.mos-light{
+    font-family: var(--ff1);
+    font-weight: 300;
+}
+
+.mos-reg{
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+
+.mos-med{
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+
+.mos-semi{
+    font-family: var(--ff1);
+    font-weight: 600;
+}
+
+.mos-bold{
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+
+.robo-light{
+    font-family: var(--ff2);
+    font-weight: 300;
+}
+
+.robo-reg{
+    font-family: var(--ff2);
+    font-weight: 400;
+}
+
+.robo-med{
+    font-family: var(--ff2);
+    font-weight: 500;
+}
+
+.robo-bold{
+    font-family: var(--ff2);
+    font-weight: 700;
+}
+
+/*====================
+    font-family ends
+=====================*/
+.navbar{
+    padding: 17px 0 !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    margin-right: 25px;
+    padding-bottom: 8px !important;
+    position: relative;
+    transition: all linear 0.4s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--brand) !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--brand);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all linear 0.4s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+
+/*================ 
+    manu ends
+==================*/
+#banner{
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#banner::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
+#banner .banner-text .banner-head{
+    padding-top: 140px;
+}
+
+#banner .banner-text h5{
+    padding-top: 30px;
+    width: 80%;
+}
+
+#banner .banner-text .banner-para {
+	padding-top: 25px;
+	line-height: 30px;
+	padding-right: 303px;
+}
+
+#banner .banner-text .banner-icon{
+    padding-top: 75px;
+}
+
+#banner .banner-text .banner-icon ul{
+    margin-top: 25px;
+}
+
+#banner .banner-text .banner-icon ul li {
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: var(--bg-color2);
+	font-size: 25px;
+	margin-right: 12px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+#banner .banner-text .banner-icon ul li:last-child{
+    margin-right: 0;
+}
+
+#banner .banner-text .banner-icon ul li:hover{
+    box-shadow: 0px -1px 4px 0px rgba(255, 255, 255, 0.2);
+}
+
+#banner .banner-text .banner-icon ul li a i{
+    transition: all linear 0.4s;
+}
+
+#banner .banner-text .banner-icon ul li:hover a i{
+    color: var(--brand) !important;
+}
+
+#banner .banner-text .icon .banner-icon:first-of-type{
+    margin-right: 140px;
+}
+
+#banner .banner-img {
+	width: 360px;
+	background-color: var(--bg-color2);
+	margin-top: 173px;
+	box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.19);
+}
+
+#banner .banner-img img{
+    width: 100%;
+}
+/*================ 
+    banner ends
+==================*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 86px;
+    position: relative;
+}
+
+#about::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
+#about .about-item{
+    padding: 50px;
+    margin-bottom: 24px;
+    transition: all linear 0.4s;
+}
+
+#about .about-item:hover{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+    transform: scale(1.07);
+}
+
+#about .about-item i{
+    padding-bottom: 14px;
+}
+
+#about .about-item .item-head{
+    padding-bottom: 12px;
+}
+
+#about .about-item .item-para {
+	margin-right: 53px;
+}
+/*================ 
+    about ends
+==================*/
+#portfolio{
+    padding-top: 50px;
+    padding-bottom: 86px;
+    position: relative;
+}
+
+#portfolio::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
+#portfolio .portfolio-item{
+    margin-bottom: 24px;
+    padding: 30px;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+}
+
+
+#portfolio .portfolio-item:hover{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+}
+
+#portfolio .portfolio-item img{
+    width: 100%;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+}
+
+#portfolio .portfolio-item:hover img{
+    transform: scale(1.05);
+}
+
+#portfolio .portfolio-item .por-right {
+	padding-left: 231px;
+}
+
+#portfolio .portfolio-item .por-right i{
+    transition: all linear 0.4s;
+}
+
+#portfolio .portfolio-item:hover .por-right i{
+    color: var(--brand);
+}
+
+#portfolio .portfolio-item .por-left,.por-right{
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+#portfolio .portfolio-item h5{
+    line-height: 40px;
+}
+/*===================
+    portfolio ends
+=====================*/
+#client .client-work {
+	padding-top: 164px;
+}
+
+#client .client-work .client-list{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+    border-radius: 10px;
+}
+
+#client .client-work .client-list li{
+    line-height: 60px;
+    transition: all linear 0.4s;
+    border-bottom: 1px solid transparent;
+}
+
+#client .client-work .client-list .active{
+    color: var(--brand) !important;
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.055);
+    border-bottom: 1px solid var(--brand);
+
+}
+
+#client .client-work .client-list li:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.055);
+    color: var(--brand) !important;
+    border-bottom: 1px solid var(--brand);
+}
+
+#client .client-brand .client-item{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.055);
+    width: 263px;
+    padding: 0 60px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all linear 0.4s;
+}
+
+#client .client-brand .client-item:hover{
+    border: 1px solid rgba(255, 1, 77, 0.356);
+}
+
+
+#client .client-brand .client-item::after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid var(--bg-color2);
+	position: absolute;
+	left: 0;
+	bottom: 62px;
+    transition: all linear 0.4s;
+}
+
+#client .client-brand .client-item:hover::after{
+    border-color: rgba(255, 1, 77, 0.356);
+}
+
+#client .client-brand .client-item img{
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+#client .client-brand .client-item h6{
+    padding: 20px 0;
+}
+
+/*===================
+    client ends
+=====================*/
+#blog{
+    padding-top: 50px;
+    padding-bottom: 86px;
+    position: relative;
+}
+
+#blog::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
+#blog .blog-item{
+    margin-bottom: 24px;
+    padding: 30px;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+}
+
+
+#blog .blog-item:hover{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+}
+
+#blog .blog-item img{
+    width: 100%;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+}
+
+#blog .blog-item:hover img{
+    transform: scale(1.05);
+}
+
+#blog .blog-item .por-right{
+	padding-left: 144px;
+}
+
+#blog .blog-item .fast {
+	padding-left: 197px;
+}
+
+#blog .blog-item .three {
+	padding-left: 168px;
+}
+
+#blog .blog-item .por-right i{
+    transition: all linear 0.4s;
+}
+
+#blog .blog-item:hover .por-right i{
+    color: var(--brand);
+}
+#blog .blog-item .por-left,.por-right{
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+#blog .blog-item h5{
+    line-height: 40px;
+    transition: all linear 0.4s;
+}
+
+#blog .blog-item:hover h5{
+    color: var(--brand) !important;
+}
+/*===================
+    blog ends
+=====================*/
+#contact{
+    padding-top: 50px;
+    padding-bottom: 86px;
+    position: relative;
+}
+
+#contact::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
+#contact .contact-text{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+    padding: 43px 38px;
+    border-radius: 10px;
+
+}
+
+#contact .contact-text img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+#contact .contact-text h5{
+    padding-top: 44px;
+}
+
+#contact .contact-text h6{
+    padding-top: 12px;
+}
+
+#contact .contact-text p{
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+
+#contact .contact-text .contact-icon{
+    padding-top: 50px;
+}
+
+#contact .contact-text .contact-icon ul{
+    margin-top: 25px;
+}
+
+#contact .contact-text .contact-icon ul li {
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: var(--bg-color2);
+	font-size: 25px;
+	margin-right: 12px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+#contact .contact-text .contact-icon ul li:last-child{
+    margin-right: 0;
+}
+
+#contact .contact-text .contact-icon ul li:hover{
+    box-shadow: 0px -1px 4px 0px rgba(255, 255, 255, 0.2);
+}
+
+#contact .contact-text .contact-icon ul li a i{
+    transition: all linear 0.4s;
+}
+
+#contact .contact-text .contact-icon ul li:hover a i{
+    color: var(--brand) !important;
+}
+
+#contact .contact-input{
+    margin-top: 100px;
+}
+
+#contact .contact-input{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+
+#contact .contact-input input{
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--bg-color2);
+    color: #ffff;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#contact .contact-input .fast-input {
+	margin-right: 25px;
+}
+
+#contact .contact-input .fast-one{
+    width: 333px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+#contact .contact-input .subject{
+    width: 100%;
+    line-height: 40px;
+	/* border-radius: 10px; */
+}
+
+#contact .contact-input .message{
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: #ffff;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#contact .contact-input .submit{
+    border-radius: 10px;
+    background: var(--bg-color3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    margin-top: 40px;
+    padding: 15px 0;
+    transition: all linear 0.4s;
+}
+
+#contact .contact-input .submit:hover{
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.19);
+
+}
+
+#contact .contact-input .submit i{
+    color: transparent;
+    transition: all linear 0.4s;
+}
+
+#contact .contact-input .submit:hover i{
+    color: var(--brand) !important;
+}
+
+/*=================
+    contact ends
+===================*/
+#footer .footer-content{
+    padding: 100px 0;
+}
+
+#footer .footer-content p{
+    padding-top: 20px;
+}
+
+/*=================
+    footer ends
+===================*/
