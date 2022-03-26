@@ -375,6 +375,22 @@ img{
 /*===================
     portfolio ends
 =====================*/
+#client{
+    padding-top: 50px;
+    padding-bottom: 86px;
+    position: relative;
+}
+
+#client::after {
+	content: '';
+	width: 85.6%;
+	height: 2px;
+	background-color: var(--bg-color2);
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+}
+
 #client .client-work {
 	padding-top: 164px;
 }

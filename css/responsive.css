@@ -1,0 +1,452 @@
+@media (min-width: 768px) and (max-width: 992px){
+/* Medium starts */
+    /*================ nav starts================== */
+    .navbar .navbar-toggler{
+        border-color:#fff ;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+
+    .navbar .navbar-toggler .navbar-icon{
+        color: #fff;
+        font-size: 25px;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-toggler:hover .navbar-icon{
+        color: #FF014F;
+    }
+
+    .navbar .navbar-nav {
+        padding: 15px 0;
+        box-shadow: 0px 0px 3px -1px rgba(255, 255, 255, 0.19);
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        width: 100% ;
+        transform: scale(0);
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        transform: scale(1);
+    }
+    /*================ nav ends================== */
+
+    /*================ banner starts================== */
+    #banner .banner-text .banner-head{
+        font-size: 17px;
+    }
+
+    #banner .banner-text h5{
+        font-size: 23px;
+    }
+
+    #banner .banner-text .banner-para {
+        padding-right: 0;
+        font-size: 15px;
+    }
+
+    #banner .banner-img{
+        width: 300px;
+    }
+
+    #banner .banner-text .banner-icon ul li {
+        width: 45px;
+        line-height: 45px;
+        font-size: 15px;
+    }
+
+    #banner .banner-text .icon .banner-icon:first-of-type {
+        margin-right: 37px;
+    }
+
+    #banner::after {
+        left: 54px;
+    }
+    /*================ banner ends================== */
+    
+    /*================ about starts================== */ 
+    #about span{
+        font-size: 17px;
+    }
+
+    #about .head{
+        font-size: 35px;
+    }
+
+    #about .about-item i{
+        font-size: 40px;
+    }
+
+    #about .about-item .item-head{
+        font-size: 19px;
+    }
+
+    #about .about-item .item-para{
+        font-size: 14px;
+    }
+
+    #about::after {
+        left: 54px;
+    }
+    /*================ about ends================== */
+
+    /*================ portfolio starts================== */ 
+    #portfolio span{
+        font-size: 17px;
+    }
+
+    #portfolio .head{
+        font-size: 35px;
+    }
+
+    #portfolio .portfolio-item .por-left, .por-right{
+        font-size: 15px;
+    }
+
+    #portfolio .portfolio-item h5{
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #portfolio .portfolio-item .por-right {
+        padding-left: 142px;
+    }
+
+    #portfolio::after {
+        left: 54px;
+    }
+    /*================ portfolio ends================== */
+
+    /*================ client ends================== */
+    #client span{
+        font-size: 17px;
+    }
+
+    #client .head{
+        font-size: 35px;
+    }
+
+    #client .client-work .client-list li{
+        font-size: 15px;
+    }
+
+    #client .client-brand .client-item {
+        width: 255px;
+    }
+
+    #client .client-brand .client-item h6{
+        font-size: 17px;
+    }
+    /*================ client ends================== */
+
+    /*================ blog starts================== */
+    #blog span{
+        font-size: 17px;
+    }
+
+    #blog .head{
+        font-size: 35px;
+    }
+
+    #blog .blog-item .por-left, .por-right {
+        padding-bottom: 16px;
+    }
+
+    #blog .blog-item h5 {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    #blog .blog-item .por-right{
+        font-size: 11px;
+        padding-left: 0;
+    }
+
+    #blog .blog-item .por-left, .por-right{
+        font-size: 11px;
+    }
+
+    #blog .blog-item .fast {
+        padding-left: 0px;
+    }
+ 
+    #blog::after {
+        left: 54px;
+    }
+    /*================ blog ends================== */
+    /*================ contact starts================== */
+    #contact span{
+        font-size: 17px;
+    }
+
+    #contact .head{
+        font-size: 35px;
+    }
+
+    #contact .contact-text h5 {
+        padding-top: 28px;
+        font-size: 30px;
+    }
+
+    #contact .contact-text h6 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    #contact .contact-input .fast-one {
+        width: 308px;;
+    }
+
+    #contact .contact-input .subject{
+        width: 100%;
+    }
+  
+    #contact::after {
+        left: 54px;
+    }
+    /*================ contact ends================== */
+/* Medium ends */
+}
+
+/* Small starts */
+@media (min-width: 576px) and (max-width: 768px){
+        
+    /*================ nav starts================== */
+    .navbar .navbar-toggler{
+        border-color:#fff ;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+
+    .navbar .navbar-toggler .navbar-icon{
+        color: #fff;
+        font-size: 25px;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-toggler:hover .navbar-icon{
+        color: #FF014F;
+    }
+
+    .navbar .navbar-nav {
+        padding: 15px 0;
+        box-shadow: 0px 0px 3px -1px rgba(255, 255, 255, 0.19);
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        width: 100% ;
+        transform: scale(0);
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        transform: scale(1);
+    }
+    /*================ nav ends================== */
+
+    /*================ banner starts================== */ 
+    #banner .banner-text .banner-head {
+        padding-top: 120px;
+    }
+
+    #banner .banner-text h5{
+        font-size: 30px;
+    }
+
+    #banner .banner-text .banner-para {
+        padding-right: 0;
+        font-size: 15px;
+    }
+
+    #banner .banner-img{
+        width: 300px;
+    }
+
+    #banner .banner-text .banner-icon ul li {
+        width: 60px;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #banner .banner-text .icon .banner-icon:first-of-type {
+        margin-right: 37px;
+    }
+
+    #banner .banner-img {
+        width: 390px;
+        margin-top: 110px;
+    }
+
+    #banner::after {
+        left: 41px;
+    }
+    /*================ banner ends================== */
+
+    /*================ about starts================== */
+    #about span{
+        font-size: 17px;
+    }
+
+    #about .head{
+        font-size: 35px;
+    }
+
+    
+    #about .about-item {
+        padding: 29px;
+    }
+
+    #about .about-item i{
+        font-size: 35px;
+    }
+
+    #about .about-item .item-head{
+        font-size: 19px;
+    }
+
+    #about .about-item .item-para{
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+    #about::after {
+        left: 41px;
+    }
+
+    /*================ about ends================== */
+        
+    /*================ portfolio starts================== */ 
+    #portfolio span{
+        font-size: 17px;
+    }
+    
+    #portfolio .head{
+        font-size: 35px;
+    }
+
+    #portfolio .portfolio-item .por-right {
+        padding-left: 317px;
+    }
+
+    #portfolio::after {
+        left: 41px;
+    }
+    /*================ portfolio ends================== */ 
+
+    /*================ client ends================== */
+    #client span{
+        font-size: 17px;
+    }
+
+    #client .head{
+        font-size: 35px;
+    }
+
+    #client .client-work {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #client .client-work .client-list li{
+        font-size: 18px;
+    }
+
+    #client .client-brand .client-item {
+        width: 255px;
+    }
+
+    #client .client-brand .client-item h6{
+        font-size: 17px;
+    }
+
+    #client::after {
+        left: 41px;
+    }
+    /*================ client ends================== */
+
+    /*================ blog starts================== */
+    #blog span{
+    font-size: 17px;
+    }
+
+    #blog .head{
+        font-size: 35px;
+    }
+
+    #blog .blog-item .por-left, .por-right {
+        padding-bottom: 16px;
+    }
+
+    #blog .blog-item h5 {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    #blog .blog-item .por-right {
+        padding-left: 211px;
+    }
+
+    #blog .blog-item .fast {
+        padding-left: 283px;
+    }
+ 
+    #blog::after {
+        left: 41px;
+    }
+    /*================ blog ends================== */
+
+        /*================ contact starts================== */
+        #contact span{
+            font-size: 17px;
+        }
+    
+        #contact .head{
+            font-size: 35px;
+        }
+    
+        #contact .contact-text h5 {
+            padding-top: 28px;
+            font-size: 30px;
+        }
+    
+        #contact .contact-text h6 {
+            padding-top: 10px;
+            font-size: 20px;
+        }
+    
+        #contact .contact-input .fast-one {
+            width: 218px;
+        }
+    
+        #contact .contact-input .subject{
+            width: 100%;
+        }
+      
+        #contact::after {
+            left: 41px;
+        }
+        /*================ contact ends================== */
+
+        /*================ footer starts================== */
+        #footer .footer-content {
+            padding: 70px 0;
+        }
+        /*================ footer ends================== */
+}
+/* Small ends */
