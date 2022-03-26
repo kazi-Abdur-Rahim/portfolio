@@ -411,42 +411,326 @@
     }
     /*================ blog ends================== */
 
-        /*================ contact starts================== */
-        #contact span{
-            font-size: 17px;
-        }
-    
-        #contact .head{
-            font-size: 35px;
-        }
-    
-        #contact .contact-text h5 {
-            padding-top: 28px;
-            font-size: 30px;
-        }
-    
-        #contact .contact-text h6 {
-            padding-top: 10px;
-            font-size: 20px;
-        }
-    
-        #contact .contact-input .fast-one {
-            width: 218px;
-        }
-    
-        #contact .contact-input .subject{
-            width: 100%;
-        }
-      
-        #contact::after {
-            left: 41px;
-        }
-        /*================ contact ends================== */
+    /*================ contact starts================== */
+    #contact span{
+        font-size: 17px;
+    }
 
-        /*================ footer starts================== */
-        #footer .footer-content {
-            padding: 70px 0;
-        }
-        /*================ footer ends================== */
+    #contact .head{
+        font-size: 35px;
+    }
+
+    #contact .contact-text h5 {
+        padding-top: 28px;
+        font-size: 30px;
+    }
+
+    #contact .contact-text h6 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    #contact .contact-input .fast-one {
+        width: 218px;
+    }
+
+    #contact .contact-input .subject{
+        width: 100%;
+    }
+    
+    #contact::after {
+        left: 41px;
+    }
+    /*================ contact ends================== */
+
+    /*================ footer starts================== */
+    #footer .footer-content {
+        padding: 70px 0;
+    }
+    /*================ footer ends================== */
 }
 /* Small ends */
+
+/* extra small starts */
+@media (max-width: 576px){
+            
+    /*================ nav starts================== */
+    .navbar-light .navbar-brand{
+        font-size: 25px;
+    }
+
+    .navbar .navbar-toggler{
+        border-color:#fff ;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+
+    .navbar .navbar-toggler .navbar-icon{
+        color: #fff;
+        font-size: 25px;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-toggler:hover .navbar-icon{
+        color: #FF014F;
+    }
+
+    .navbar .navbar-nav {
+        padding: 15px 0;
+        box-shadow: 0px 0px 3px -1px rgba(255, 255, 255, 0.19);
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-top: 15px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link{
+        margin-left: 32px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        width: 100% ;
+        transform: scale(0);
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        transform: scale(1);
+    }
+    /*================ nav ends================== */
+
+    /*================ banner starts================== */ 
+    #banner .banner-text .banner-head {
+        padding-top: 120px;
+        font-size: 17px;
+    }
+
+    #banner .banner-text h5 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    #banner .banner-text .banner-para {
+        padding-right: 0;
+        font-size: 15px;
+    }
+
+    #banner .banner-img{
+        width: 300px;
+    }
+
+    #banner .banner-text .banner-icon ul li {
+        width: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    #banner .banner-text .banner-icon h6{
+        font-size: 14px;
+    }
+
+    #banner .banner-img {
+        width: 281px;
+        margin-top: 70px;
+    }
+
+    #banner::after {
+        left: 22px;
+    }
+    /*================ banner ends================== */
+
+    /*================ about starts================== */
+    #about span{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #about .head{
+        font-size: 25px;
+        text-align: center;
+    }
+  
+    #about .about-item {
+        padding: 29px;
+    }
+
+    #about .about-item i{
+        font-size: 35px;
+    }
+
+    #about .about-item .item-head{
+        font-size: 19px;
+    }
+
+    #about .about-item .item-para{
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+    #about::after {
+        left: 22px;
+    }
+
+    /*================ about ends================== */
+         
+    /*================ portfolio starts================== */ 
+    #portfolio span{
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    #portfolio .head{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #portfolio .portfolio-item .por-right {
+        padding-left: 119px;
+    }
+
+    #portfolio::after {
+        left: 22px;
+    }
+    /*================ portfolio ends================== */ 
+    
+    /*================ client ends================== */
+    #client span{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #client .head{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #client .client-work {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #client .client-brand{
+        margin-left: 21px;
+    }
+
+    #client .client-work .client-list li{
+        font-size: 18px;
+    }
+
+    #client .client-brand .client-item {
+        width: 255px;
+    }
+
+    #client .client-brand .client-item h6{
+        font-size: 17px;
+    }
+
+    #client::after {
+        left: 22px;
+    }
+    /*================ client ends================== */
+
+    
+    /*================ blog starts================== */
+    #blog span{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #blog .head{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #blog .blog-item .por-left, .por-right {
+        padding-bottom: 16px;
+    }
+
+    #blog .blog-item h5 {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    #blog .blog-item .por-right {
+        padding-left: 47px;
+    }
+
+    #blog .blog-item .fast {
+        padding-left: 93px;
+    }
+    
+    #blog::after {
+        left: 22px;
+    }
+    /*================ blog ends================== */
+ 
+    /*================ contact starts================== */
+    #contact span{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #contact .head{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #contact .contact-text {
+        padding: 24px 24px;
+    }
+
+    #contact .contact-text h5 {
+        padding-top: 28px;
+        font-size: 25px;
+    }
+
+    #contact .contact-text h6 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    #contact .contact-text .contact-me{
+        font-size: 16px;
+    }
+
+    #contact .contact-text .contact-icon ul li {
+        width: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    #contact .contact-text .contact-icon .icon-head{
+        font-size: 14px;
+    }
+
+    #contact .contact-input {
+        padding: 31px 18px;
+    }
+
+    #contact .contact-input .fast-one {
+        width: 261px;
+    }
+
+    #contact .contact-input .subject{
+        width: 100%;
+    }
+    
+    #contact::after {
+        left: 22px;
+    }
+    /*================ contact ends================== */
+    
+    /*================ footer starts================== */
+    #footer .footer-content {
+        padding: 60px 0;
+    }
+
+    #footer .footer-content p{
+        font-size: 14px;
+    }
+    /*================ footer ends================== */
+}
+/* extra small ends */
