@@ -211,13 +211,17 @@ img{
     padding-top: 140px;
 }
 
-#banner .banner-text h5{
-    padding-top: 30px;
-    width: 80%;
+#banner .banner-text h5 {
+	position: absolute;
+	top: 195px;
+}
+
+#banner .banner-text h5 .typed-cursor{
+    color: var(--brand);
 }
 
 #banner .banner-text .banner-para {
-	padding-top: 25px;
+	padding-top: 160px;
 	line-height: 30px;
 	padding-right: 303px;
 }
