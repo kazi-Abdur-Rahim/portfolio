@@ -588,7 +588,7 @@
     }
 
     #portfolio .portfolio-item .por-right {
-        padding-left: 119px;
+        padding-left: 132px;
     }
 
     #portfolio::after {
@@ -655,11 +655,11 @@
     }
 
     #blog .blog-item .por-right {
-        padding-left: 47px;
+        padding-left: 56px;
     }
 
     #blog .blog-item .fast {
-        padding-left: 93px;
+        padding-left: 102px;
     }
     
     #blog::after {
