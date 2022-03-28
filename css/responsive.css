@@ -588,7 +588,7 @@
     }
 
     #portfolio .portfolio-item .por-right {
-        padding-left: 132px;
+        padding-left: 200px;
     }
 
     #portfolio::after {
@@ -655,11 +655,11 @@
     }
 
     #blog .blog-item .por-right {
-        padding-left: 56px;
+        padding-left: 130px;
     }
 
     #blog .blog-item .fast {
-        padding-left: 102px;
+        padding-left: 165px;
     }
     
     #blog::after {
@@ -708,14 +708,6 @@
 
     #contact .contact-input {
         padding: 31px 18px;
-    }
-
-    #contact .contact-input .fast-one {
-        width: 261px;
-    }
-
-    #contact .contact-input .subject{
-        width: 100%;
     }
     
     #contact::after {
